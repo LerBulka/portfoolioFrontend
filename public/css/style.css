@@ -1,0 +1,351 @@
+
+
+.container{
+    max-width:1440px !important;
+}
+
+p{
+    font-family: "Helvetica Neue";
+}
+
+.home-banner{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 498px;
+    background-image:url('../images/homeBanner.png');
+    background-size: cover;
+    margin-top:50px;
+    border-radius: 30px;
+    padding-top:110px;
+    padding-left:120px;
+}
+
+.name-text{
+    color:white;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.white-text{
+    color:white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.arrow-buttonWhite {
+    display: flex;
+    color: #ffffff;
+    background-color: #ffffff00;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border-color:#ffffff;
+    transition: all .3s ease;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+}
+
+.arrow-buttonWhite > .icon-arrow {
+   margin-left:10px;
+   transition:all .5s ease;
+}
+
+.arrow-buttonWhite:hover > .icon-arrow {
+    margin-left:30px;
+ }
+
+.line{
+    width: 56px;
+    margin-bottom:40px;
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, rgba(55, 176, 174, 1), rgba(96, 168, 255, 1)) 1;
+}
+
+h1{
+    font-family: "Helvetica Neue";
+    font-size: 40px;
+    color:black
+}
+
+.section{
+    margin-top:100px;
+}
+
+.activity-block{
+    display: flex;
+    margin-right:10px;
+    margin-bottom:10px;
+    width:695px;
+    min-height:254px;
+    box-shadow: 1px 1px 20px rgba(105, 105, 105, 0.205);
+    border-radius: 20px;
+    padding:50px;
+    flex-direction: column;
+}
+
+.activity-title{
+    font-size: 24px;
+   font-weight: bold;
+   width:500px;
+}
+
+.activity-description{
+    width:400px;
+}
+
+.arrow-buttonBlack {
+    display: flex;
+    color: rgba(30, 30, 30, 1);
+    border:none;
+    background-color: #ffffff00;
+    padding: 10px 16px;
+    transition: all .3s ease;
+    cursor: pointer;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.arrow-buttonBlack > .icon-arrow {
+   margin-left:10px;
+   transition:1s;
+}
+
+.arrow-buttonBlack:hover > .icon-arrow {
+   margin-left:30px;
+}
+
+.myPhoto-block{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+}
+
+.aboutme-text{
+    max-width:800px;
+}
+
+.app-icons{
+    display:flex;
+    justify-content: space-around;
+}
+
+.appIcon-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark-container{
+    display:flex;
+    width:1416px;
+    flex-direction: column;
+}
+
+.form-block{
+    width:581px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top:20px;
+    margin-bottom:50px;
+    margin-left:10px;
+}
+
+.contacttext-block{
+    margin-top:50px;
+}
+
+label.form-label{
+    color:white;
+    font-weight: 200;
+}
+
+input.form-control{
+    width:269px;
+    margin-bottom:30px;
+}
+
+button[type=submit] {
+    width:200px;
+        color: #ffffff;
+        background-color: #ffffff00;
+        padding: 10px 16px;
+        border-radius: 20px;
+        border-color:#ffffff;
+        transition: all .3s ease;
+        cursor: pointer;
+        text-align: center;
+        font-size: 14px;
+        
+}
+
+.downloadButton{
+    width:200px;
+        color: rgba(96, 168, 255, 1);
+        background-color: #ffffff00;
+        padding: 10px 16px;
+        border-radius: 30px;
+        border-color:rgba(96, 168, 255, 1);
+        text-align: center;
+        border-style:solid;
+        font-size: 16px;
+        font-family: "Helvetica Neue";
+        transition:1s;
+}
+
+.downloadButton:hover{
+    width:200px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(96, 168, 255, 1);
+        padding: 10px 16px;
+        border-radius: 30px;
+        border-color:rgba(96, 168, 255, 1);
+        text-align: center;
+        border-style:solid;
+        font-size: 16px;
+        font-family: "Helvetica Neue";
+}
+
+.project-block{
+    margin-top:50px;
+}
+
+.nav{
+    justify-content: space-around;
+}
+
+button[role=tab]{
+    color:white;
+    opacity:0.5;
+    transition: 1s;
+}
+
+button[role=tab]:hover{
+    color:white;
+    border:none !important;
+    border-bottom:2px solid white !important;
+    opacity:1;
+}
+
+
+.nav-link.active {
+    font-weight: bold;
+    color:white !important;
+    background-color: #ffffff00 !important;
+    border:none !important;
+    border-bottom:2px solid white !important;
+    opacity:1;
+}
+
+a{
+    text-decoration: none !important;
+    transition: 1s;
+}
+
+.breadcrumb{
+    a{
+        color:white;
+        opacity: 0.5;
+    }
+}
+
+.breadcrumb{
+    a:hover{
+        color:white;
+        opacity: 1;
+    }
+}
+
+.category_name{
+    font-family: 'Helvetica Neue';
+    font-size:52px !important;
+    font-weight: 500;
+    color:white;
+}
+
+.category_description{
+    font-size: 16px;
+    font-weight: 200;
+    width:900px;
+}
+
+
+@media only screen and (max-width:1000px){
+    .activities-block{
+       justify-content: center;
+    }
+
+    activity-block{
+        min-width:200px;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-banner{
+        padding:50px;
+    }
+   
+    input.form-control {
+        width:140px;
+    }
+
+    textarea.form-control {
+        width:320px;
+    }
+
+    .contact-img{
+        display:none; 
+    }
+}
+
+@media only screen and (max-width:500px){
+
+    .name-text{
+        font-size: 45px;
+    }
+
+    .home-banner{
+        padding:20px;
+    }
+
+    .white-text{
+        font-size: 16px !important;
+    }
+
+    .activities-block{
+        justify-content: unset;
+        display:block !important;
+     }
+ 
+     .activity-block{
+         width:auto;
+     }
+
+     .activity-description{
+        width:250px;
+     }
+
+    .contact-img{
+        display:none; 
+    }
+
+    .container-fluid{
+        justify-content:unset !important;
+        align-items: start !important;
+    }
+
+    .contacttext-block{
+        width:300px;
+    }
+
+    .category_description{
+        width:320px;
+    }
+}
