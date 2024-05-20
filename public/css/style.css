@@ -61,6 +61,7 @@ p{
     width: 56px;
     margin-bottom:40px;
     border-top: 5px solid;
+    background-color: rgba(96, 168, 255, 1);
     /* border-image: linear-gradient(to right, rgba(55, 176, 174, 1), rgba(96, 168, 255, 1)) 1; */
     border-radius: 30%;
 }
