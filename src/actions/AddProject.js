@@ -60,14 +60,10 @@ export default function AddProject() {
     
             let formData = new FormData();
             formData.append('file', image.data, image.data.name);
-            const response = await fetch('https://portfoolio-deploy-7b060a1c6acd.herokuapp.com/image', {
-            method: 'POST',
-            body: formData,
+            await fetch(`https://portfoolio-deploy-7b060a1c6acd.herokuapp.com/image`, {
+                method: 'POST',
+                body: formData,
             });
-
-            if (!response.ok) {
-                throw new Error('Image upload failed');
-            }
     
             navigate('/projecttable');
         } catch (error) {
