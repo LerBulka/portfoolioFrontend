@@ -117,7 +117,7 @@ export default function Home() {
                   <p class="activity-description">Работы в области фотографии, включая портреты, пейзажи и репортажи. Мое портфолио в фотографии представляет разнообразие стилей...</p>
                 </Col>
                 <Col lg={3}>
-                <Link to={`/photography`}><button href="#" class="arrow-buttonBlack">ПЕРЕЙТИ<img class="icon-arrow" src="images/arrowBlack.svg"></img></button></Link>
+                
                 </Col>
               </Row>
             </div>

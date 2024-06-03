@@ -221,6 +221,10 @@ button[type=submit] {
     justify-content: space-around;
 }
 
+.nav-tabs .nav-link{
+    border:none;
+}
+
 button[role=tab]{
     color:white;
     opacity:0.5;
