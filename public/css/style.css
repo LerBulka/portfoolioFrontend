@@ -221,8 +221,8 @@ button[type=submit] {
     justify-content: space-around;
 }
 
-.nav-tabs .nav-link{
-    border:none;
+.subcategory-tabs-tab-2.nav-link{
+    border:none !important;
 }
 
 button[role=tab]{
