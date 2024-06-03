@@ -221,11 +221,8 @@ button[type=submit] {
     justify-content: space-around;
 }
 
-.subcategory-tabs-tab-2.nav-link{
-    border:none !important;
-}
-
 button[role=tab]{
+    border:none !important;
     color:white;
     opacity:0.5;
     transition: 1s;
