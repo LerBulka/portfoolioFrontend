@@ -60,7 +60,7 @@ export default function AddProject() {
     
             let formData = new FormData();
             formData.append('file', image.data, image.data.name);
-            await fetch('http://localhost:5000/image', {
+            await fetch('https://portfoolio-deploy-7b060a1c6acd.herokuapp.com/image', {
                 method: 'POST',
                 body: formData,
             });
